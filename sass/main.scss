@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+}
+
+.container {
+    width: 1193px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+// header start
+.header {
+    .container {
+        display: flex;
+        padding-top: 30px;
+        justify-content: space-between;
+    }
+
+    .nav {
+        &-list {
+            display: flex;
+            gap: 50px;
+        }
+
+        &-item {
+            list-style: none;
+        }
+
+        &-link {
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 22.5px;
+            color: #3D3D3D;
+            &:hover{
+                color: #3333339a;
+            }
+        }
+    }
+    .select{
+        &-link{
+            text-decoration: none;
+            font-size: 15px;
+            line-height: 22px;
+            color: #3D3D3D;
+            padding-left: 20px;
+            &:hover{
+                color: #C3228F;
+                text-decoration: underline;
+
+            }
+        }
+    }
+}
+// header end
+
+// main start
+
+// shalet-logo start
+
+.shalet-logo{
+    .container{
+        padding-top: 107px;
+    }
+    &__img{
+        display: flex;
+        align-items: center;
+        gap: 41px;
+    }
+    &__title{
+        padding-top: 33px;
+        font-size: 26px;
+        line-height: 30px;
+        color: #3D3D3D;
+    }
+}
+
+// shalet-logo end
+
+
+// main end
