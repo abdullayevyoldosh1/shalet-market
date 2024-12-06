@@ -164,4 +164,46 @@ body {
 }
 .about-desc a {
   color: #C3228F;
+}
+
+.product {
+  margin-top: 180px;
+}
+.product .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-title {
+  font-size: 26px;
+  line-height: 30px;
+  color: #3D3D3D;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+.product-icon {
+  display: flex;
+  gap: 15px;
+}
+
+.marketing {
+  background-color: #F5F5F5;
+  display: flex;
+  margin-top: 40px;
+}
+.marketing-img {
+  width: 398px;
+  text-align: center;
+}
+.marketing-title {
+  color: #3D3D3D;
+  font-size: 16px;
+  line-height: 18px;
+}
+.marketing-desc {
+  font-size: 14px;
+  line-height: 20px;
+  color: #3D3D3D;
+  font-weight: 400;
+  padding: 11px 40px 0 40px;
 }/*# sourceMappingURL=main.css.map */
