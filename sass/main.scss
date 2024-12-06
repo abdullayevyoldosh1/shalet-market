@@ -87,5 +87,111 @@ body {
 
 // shalet-logo end
 
+// reklama start
+.reklama{
+    position: relative;
+    &-img{
+        display: flex;
+        margin-top: 50px;
+        img{
+        width: 533px;
+        height: 650px;
+       
+       }
+    }
+    &-img2{
+        position: absolute;
+        top: -112px;
+        right: 423px;
+    }
+    &-list{
+        display: flex;
+        gap: 35px;
+    }
+    &-item{
+        font-size: 32px;
+        line-height: 38px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        img {
+            width: 45px;
+            height: 30px;
+            margin-right: 35px;
+        }
+    }
+}
+// reklama end
+
+//brand start
+
+.brand{
+    margin-top: 180px;
+    &-info{
+        display: flex;
+        gap:70px;
+    }
+    &-title{
+        font-size: 40px;
+        line-height: 56px;
+        color: #3D3D3D;
+        text-transform: uppercase;
+        span{
+            color: #C3228F;
+        }
+    }
+    &-title2{
+        font-size: 40px;
+        line-height: 56px;
+        color: #C3228F;
+        text-transform: uppercase;
+    }
+    &-desc{
+        font-size: 12px;
+        line-height: 20px;
+        text-transform: uppercase;
+        padding-top: 30px;
+        span{
+            color: #C3228F;
+        }
+    }
+}
+
+//brand end
+
+// about start
+
+.about{
+    position: relative;
+    margin-top: 240px;
+    .container{
+        background-color: #9d2c7933;
+        padding-bottom: 95px;
+    }
+    img{
+        position: absolute;
+        top: -60px;
+        left: 273px;
+    }
+    &-title{
+        font-size: 26px;
+        line-height: 30px;
+        padding:54px 0 30px 102px ;
+        color: #3D3D3D;
+        text-transform: uppercase;
+    }
+    &-desc{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #3D3D3D;
+        padding:0 102px 20px 102px ;
+        a{
+            color: #C3228F;
+        }
+    }
+}
+
+// about end
 
 // main end

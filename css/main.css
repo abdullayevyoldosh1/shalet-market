@@ -65,4 +65,100 @@ body {
   font-size: 26px;
   line-height: 30px;
   color: #3D3D3D;
+}
+
+.reklama {
+  position: relative;
+}
+.reklama-img {
+  display: flex;
+  margin-top: 50px;
+}
+.reklama-img img {
+  width: 533px;
+  height: 650px;
+}
+.reklama-img2 {
+  position: absolute;
+  top: -112px;
+  right: 423px;
+}
+.reklama-list {
+  display: flex;
+  gap: 35px;
+}
+.reklama-item {
+  font-size: 32px;
+  line-height: 38px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.reklama-item img {
+  width: 45px;
+  height: 30px;
+  margin-right: 35px;
+}
+
+.brand {
+  margin-top: 180px;
+}
+.brand-info {
+  display: flex;
+  gap: 70px;
+}
+.brand-title {
+  font-size: 40px;
+  line-height: 56px;
+  color: #3D3D3D;
+  text-transform: uppercase;
+}
+.brand-title span {
+  color: #C3228F;
+}
+.brand-title2 {
+  font-size: 40px;
+  line-height: 56px;
+  color: #C3228F;
+  text-transform: uppercase;
+}
+.brand-desc {
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+.brand-desc span {
+  color: #C3228F;
+}
+
+.about {
+  position: relative;
+  margin-top: 240px;
+}
+.about .container {
+  background-color: rgba(157, 44, 121, 0.2);
+  padding-bottom: 95px;
+}
+.about img {
+  position: absolute;
+  top: -60px;
+  left: 273px;
+}
+.about-title {
+  font-size: 26px;
+  line-height: 30px;
+  padding: 54px 0 30px 102px;
+  color: #3D3D3D;
+  text-transform: uppercase;
+}
+.about-desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #3D3D3D;
+  padding: 0 102px 20px 102px;
+}
+.about-desc a {
+  color: #C3228F;
 }/*# sourceMappingURL=main.css.map */
