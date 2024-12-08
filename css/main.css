@@ -315,4 +315,9 @@ body {
 .shalet-brand__box .container .img {
   width: 276px;
   height: 350px;
+}
+
+.certificat {
+  display: flex;
+  margin-top: 40px;
 }/*# sourceMappingURL=main.css.map */
