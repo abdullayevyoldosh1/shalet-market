@@ -231,6 +231,10 @@ body {
     &-img{
         width: 398px;
         text-align: center;
+        border-right: 1px solid #E7E7E7;
+    }
+    &-img1{
+        border-right: 1px solid #E7E7E7;
     }
     &-title{
         color: #3D3D3D;
@@ -337,4 +341,40 @@ body {
 
 // sale end
 
+// online-shops start
+
+.online-shops{
+    &__img{
+       width: 100%;
+       display: flex;
+    }
+    a{
+        border-right: 1px solid #E7E7E7;
+    }
+}
+
+// online-shops end
+
+// shalet-brand__box start
+
+.shalet-brand__box{
+    .container{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 50px;
+        position: relative;
+        .img{
+            width: 276px;
+            height: 350px;
+        }
+        // .img-2{
+        //     position: absolute;
+        //     top: 0;
+        //     z-index: 10;
+        // }
+    }
+}
+
+// shalet-brand__box end
 // main end

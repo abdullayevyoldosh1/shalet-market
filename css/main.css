@@ -194,6 +194,10 @@ body {
 .marketing-img {
   width: 398px;
   text-align: center;
+  border-right: 1px solid #E7E7E7;
+}
+.marketing-img1 {
+  border-right: 1px solid #E7E7E7;
 }
 .marketing-title {
   color: #3D3D3D;
@@ -291,4 +295,24 @@ body {
   background-color: #fff;
   color: #C3228F;
   border: 1px solid #C3228F;
+}
+
+.online-shops__img {
+  width: 100%;
+  display: flex;
+}
+.online-shops a {
+  border-right: 1px solid #E7E7E7;
+}
+
+.shalet-brand__box .container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  position: relative;
+}
+.shalet-brand__box .container .img {
+  width: 276px;
+  height: 350px;
 }/*# sourceMappingURL=main.css.map */
