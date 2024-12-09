@@ -383,4 +383,47 @@ body {
 }
 .comment a:hover {
   color: #3D3D3D;
+}
+
+.contact .container {
+  background: rgba(211, 115, 181, 0.5490196078);
+  margin-top: 240px;
+  padding: 134px 102px 115px;
+  position: relative;
+}
+.contact-title {
+  position: absolute;
+  top: -60px;
+}
+.contact-title img {
+  padding-bottom: 15px;
+}
+.contact-img {
+  position: absolute;
+  top: -106px;
+  right: -107px;
+}
+.contact-link {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-link img {
+  padding-bottom: 20px;
+}
+.contact-link h3 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #3D3D3D;
+  padding-bottom: 10px;
+}
+.contact-link a {
+  font-size: 16px;
+  line-height: 18px;
+  color: #3D3D3D;
+  text-decoration: none;
+}
+.contact-link a:hover {
+  color: rgb(39, 39, 180);
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
