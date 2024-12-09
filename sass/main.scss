@@ -218,6 +218,19 @@ body {
         display: flex;
         gap: 15px;
     }
+    &-link{
+        font-size: 16px;
+        line-height: 18px;
+        color: #3D3D3D;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding-right: 40px;
+        &:hover{
+            border: 1px solid #C3228F;
+            padding: 11px 20px;
+            border-radius: 150px;
+        }
+    }
 }
 
 // product end
@@ -386,4 +399,59 @@ body {
 }
 
 // certificat end
+
+// comment start
+.comment-box{
+    display: flex;
+    margin-top: 40px;
+}
+.comment{
+    width: 597px;
+    background: #F5F5F5;
+    border-right: 1px solid #E7E7E7;
+    padding: 50px;
+    padding-bottom: 67px;
+    &-info{
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        p{
+            font-size: 14px;
+            font-weight:400;
+            line-height: 20px;
+            color: #B9B9B9;
+        }
+    }
+    &-title{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    &-icon{
+        h2{
+            font-size: 14px;
+            line-height: 16px;
+            color: #3D3D3D;
+            text-transform: uppercase;
+            padding-bottom: 5px;
+        }
+    }
+    p{
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #3D3D3D;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    a{
+        color: #C3228F;
+        &:hover{
+            color: #3D3D3D;
+        }
+    }
+}
+
+// comment end
+
 // main end

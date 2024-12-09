@@ -185,6 +185,19 @@ body {
   display: flex;
   gap: 15px;
 }
+.product-link {
+  font-size: 16px;
+  line-height: 18px;
+  color: #3D3D3D;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-right: 40px;
+}
+.product-link:hover {
+  border: 1px solid #C3228F;
+  padding: 11px 20px;
+  border-radius: 150px;
+}
 
 .marketing {
   background-color: #F5F5F5;
@@ -320,4 +333,54 @@ body {
 .certificat {
   display: flex;
   margin-top: 40px;
+}
+
+.comment-box {
+  display: flex;
+  margin-top: 40px;
+}
+
+.comment {
+  width: 597px;
+  background: #F5F5F5;
+  border-right: 1px solid #E7E7E7;
+  padding: 50px;
+  padding-bottom: 67px;
+}
+.comment-info {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.comment-info p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #B9B9B9;
+}
+.comment-title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.comment-icon h2 {
+  font-size: 14px;
+  line-height: 16px;
+  color: #3D3D3D;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+.comment p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #3D3D3D;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.comment a {
+  color: #C3228F;
+}
+.comment a:hover {
+  color: #3D3D3D;
 }/*# sourceMappingURL=main.css.map */
